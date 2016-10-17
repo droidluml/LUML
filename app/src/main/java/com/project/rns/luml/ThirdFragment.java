@@ -21,7 +21,7 @@ public class ThirdFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        myView = inflater.inflate(R.layout.third_layout, container, false);
+        myView = inflater.inflate(R.layout.third_layout_jornada, container, false);
         return myView;
     }
 }
