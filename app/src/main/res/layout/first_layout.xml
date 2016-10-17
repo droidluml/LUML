@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollViewGuia"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutGuia"
+        android:layout_width="match_parent"
+        android:layout_height="800dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_mod"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingBottom="55dp"
+            card_view:cardBackgroundColor="@color/colorWhite"
+            card_view:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/colorWhite"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/info_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/nav_moduloI"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/livro_uml"
+                    android:src="@mipmap/ic_modulo"
+                    android:contentDescription="@string/img_book_uml_i"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/card_view_mod"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/relativeLayout">
+
+            <TextView
+                android:id="@+id/descricao"
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/subtitulo_moduloI"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:id="@+id/imageButton2"
+            android:background="@mipmap/livro_uml"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:clickable="true"
+            android:onClick="onCasoUso"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:id="@+id/imageButton"
+            android:background="@mipmap/livro_uml"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:clickable="true"
+            android:onClick="onCasoUso"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:id="@+id/caso_uso_3"
+            android:background="@mipmap/livro_uml_3"
+            android:layout_gravity="left|center_vertical"
+            android:layout_alignLeft="@+id/caso_uso"
+            android:layout_alignStart="@+id/caso_uso"
+            android:layout_below="@+id/caso_uso"
+            android:layout_alignRight="@+id/caso_uso"
+            android:layout_alignEnd="@+id/caso_uso"
+            android:clickable="true"
+            android:onClick="onCasoUs3"/>
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:id="@+id/caso_uso_4"
+            android:background="@mipmap/livro_uml_4"
+            android:layout_gravity="left|center_vertical"
+            android:layout_below="@+id/caso_uso_2"
+            android:layout_alignLeft="@+id/caso_uso_2"
+            android:layout_alignStart="@+id/caso_uso_2"
+            android:clickable="true"
+            android:onClick="onCasoUso4"/>
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:id="@+id/caso_uso"
+            android:background="@mipmap/livro_uml"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:clickable="true"
+            android:onClick="onCasoUso"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:id="@+id/caso_uso_2"
+            android:background="@mipmap/livro_uml_2"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:clickable="true"
+            android:onClick="onCasoUso2"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_toRightOf="@+id/imageButton2"
+            android:layout_toEndOf="@+id/imageButton2" />
+
+    </RelativeLayout>
+
+</ScrollView>
+

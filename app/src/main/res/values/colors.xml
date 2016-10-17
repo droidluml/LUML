@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#29aae1</color>
+    <color name="colorPrimaryDark">#14a4e1</color>
+    <color name="colorPrimaryBlue">#d4e7f0</color>
+    <color name="colorAccent">#f78d1e</color>
+    <color name="colorPrimaryVar">#2db6f0</color>
+    <color name="colorCardViewPrimary">#c2edff</color>
+    <color name="colorCardViewOrange">#8efdb365</color>
+    <color name="colorCardViewLetra">#52747d</color>
+    <color name="colorWhite">#ffffff</color>
+</resources>

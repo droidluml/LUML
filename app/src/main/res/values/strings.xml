@@ -1,0 +1,33 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Learning UML</string>
+    <string name="navigation_guia">Guia UML</string>
+    <string name="navigation_jornada">Jornada UML</string>
+    <string name="nav_moduloI">Módulo I</string>
+    <string name="subtitulo_moduloI">Diagrama Caso de Uso</string>
+    <string name="img_book_uml_i">UML 1</string>
+    <string name="img_book_uml_ii">UML 1</string>
+    <string name="img_book_uml_iii">UML 1</string>
+    <string name="img_book_uml_iv">UML 1</string>
+    <string name="sair_app">"Pressione o botão voltar novamente para fechar o Aplicativo."</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="história"><![CDATA[A história da UML... \n\n bla blá ...]]></string>
+    <string name="modelar"><![CDATA[Devemos modelar os sistemas... \n\n blá blá blá...]]></string>
+    <string name="levantar_requisitos"><![CDATA[O levantamento de requisitos... \n\n é utilizado para ...]]></string>
+    <string name="analisar_requisitos"><![CDATA[A análise de requisitos... \n\n é utilizado para ...]]></string>
+    <string name="prazo_custo_manter"><![CDATA[O prazo, custo e manutenção de um sistema... \n\n é utilizado para ...]]></string>
+
+    <string name="title_template_step">Introdução à UML <xliff:g id="step_number">%1$d</xliff:g>: Um pouco de História.</string>
+    <string name="title_template_step_2">Introdução à UML <xliff:g id="step_number">%1$d</xliff:g>: Modelar o Software é importante.</string>
+    <string name="title_template_step_3">Introdução à UML <xliff:g id="step_number">%1$d</xliff:g>: Levantamento de Requisitos.</string>
+    <string name="title_template_step_4">Introdução à UML <xliff:g id="step_number">%1$d</xliff:g>: Análise de Requisitos.</string>
+    <string name="title_template_step_5">Introdução à UML<xliff:g id="step_number">%1$d</xliff:g>: Prazo, Custo e Manutenção do Software.</string>
+
+    <string name="action_finish" />
+    <string name="action_next" />
+
+    <string name="jornada">JORNADA</string>
+    <string name="guia">GUIA</string>
+</resources>
